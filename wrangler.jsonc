@@ -1,0 +1,9 @@
+{
+  "$schema":"node_modules/wrangler/config-schema.json",
+  "name":"fitnova-pro",
+  "main":"worker.js",
+  "compatibility_date":"2026-09-06",
+  "assets":{"directory":"./public","binding":"ASSETS","not_found_handling":"single-page-application"},
+  "ai":{"binding":"AI"},
+  "observability":{"enabled":true}
+}
